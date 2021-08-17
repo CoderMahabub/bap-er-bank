@@ -12,7 +12,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     // console.log(userPassword);
 
     //check email & password
-    if (userEmail == 'sontan@baap.com' && userPassword == 'secret') {
+    if (userEmail == 'sontan@baap.com' && userPassword == 'secret' || 'admin@codermahabub.com' && userPassword == '12345') {
         window.location.href = "banking.html";
     }
     else {
